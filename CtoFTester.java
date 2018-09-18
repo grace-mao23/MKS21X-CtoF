@@ -1,7 +1,14 @@
 public class HelloWorld{
-    public static double celsiusToFahrenheit(int temp){
+    public static double celsiusToFahrenheit(double temp){
 	return temp * 9.0 / 5 + 32;
     }
-    public static double fahrenheitToCelsius(int temp){
-	return (temp - 32) * 5.0 / 9
+    public static double fahrenheitToCelsius(double temp){
+	return (temp - 32) * 5.0 / 9;
+    }
+
+    // main function
+    public static double main(double temp){
+	return celsiusToFahrenheit(temp);
+	return fahrenheitToCelsius(temp);
+    }
 }
