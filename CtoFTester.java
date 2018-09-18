@@ -8,7 +8,7 @@ public class CtoFTester{
 
     // main function
     public static double main(double temp){
-	return celsiusToFahrenheit(temp);
-	return fahrenheitToCelsius(temp);
+	System.out.println(celsiusToFahrenheit(temp));
+	System.out.println(fahrenheitToCelsius(temp));
     }
 }
