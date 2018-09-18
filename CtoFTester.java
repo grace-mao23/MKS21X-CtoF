@@ -1,4 +1,4 @@
-public class HelloWorld{
+public class CtoFTester{
     public static double celsiusToFahrenheit(double temp){
 	return temp * 9.0 / 5 + 32;
     }
